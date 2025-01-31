@@ -1,0 +1,25 @@
+@media screen and (max-width:480px) {
+
+    header {
+        width: 100%;
+    }
+    header #span {
+        display: none;
+    }
+    main #art01 p {
+        margin-right:50px;
+        margin-left: 5px;
+    }
+    main #list img {
+        display: none;
+    }
+    main #image01 {
+        display: none;
+    }
+    main #yr {
+        margin-right: 50px;
+    }
+    footer .box {
+        display: none;
+    }
+}

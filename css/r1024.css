@@ -1,0 +1,23 @@
+@media screen and (max-width:1024px) {
+    header #top nav  {
+        display: none;
+    }
+    header {
+        height: 10vh;
+    }
+    main #images {
+        display: none;
+    }
+    main #art01 p {
+        margin-right: 100px;
+    }
+    main #cardcontact {
+        display: none;
+    }
+    main #yr {
+        width: 70%;
+    }
+    footer {
+        height: 20vh;
+    }
+}
