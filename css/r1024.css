@@ -18,6 +18,9 @@
         width: 70%;
     }
     footer {
-        height: 20vh;
+        height: 100%;
+    }
+    footer .box  {
+        display: none;
     }
 }

@@ -4,6 +4,9 @@
         width: 100%;
     }
     header #span {
+        font-size: x-small;
+    }
+    header #span #mail {
         display: none;
     }
     main #art01 p {
@@ -19,7 +22,10 @@
     main #yr {
         margin-right: 50px;
     }
-    footer .box {
+    footer .box  {
         display: none;
+    }
+    footer {
+        height: 100%;
     }
 }
