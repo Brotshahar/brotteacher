@@ -2,9 +2,7 @@
     header #top nav  {
         display: none;
     }
-    header {
-        height: 10vh;
-    }
+    
     header #top {
         height: 50%;
     }
