@@ -55,12 +55,10 @@ header #span {
     width: 80%;
     margin: 0px auto;
 }
-header #span span {
+header #span p {
     margin-left: 10px;
 }
-main {
-   
-}
+
 main #images {
     width: 50%;
     margin: 0px auto;

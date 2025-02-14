@@ -30,3 +30,17 @@ else if ((day > 1 ) & ( day <5 )) {
 else {
     console.log('Weekend');
 };
+
+// let buttonsubmit = document.getElementById("myBtn");
+// buttonsubmit.addEventListener("click", myFunction());
+
+// function myFunction() {
+//     alert ("Hello World!");
+//   }
+  
+// function passdataform(){
+//     // let fn = document.forms["contactform"]["fullname"].value;
+//     // let em = document.forms["contactform"]["email"].value;
+//     // let ph = document.forms["contactform"]["phone"].value;
+//     alert ("This function was also executed!");
+// };

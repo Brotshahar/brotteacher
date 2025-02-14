@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/r1024.css">
     <link rel="stylesheet" href="../css/r480.css">
-    <script type="text/javascript" src="../js/one.js"></script>
     <script src="https://kit.fontawesome.com/9116118311.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,12 +34,10 @@
             </div>
         </div>
         <div id="span">
-            <span><i class="fa-solid fa-phone"></i>טלפון נייד:</span>
-            <span>054-2344334</span>
-            <span id="mail"><i class="fa-solid fa-at"></i>אי-מייל:</span>
-            <span id="mail">BrotShahar@gmail.com</span>
-            <span  id="mail"><i class="fa-solid fa-fax"></i>פקס:</span>
-            <span  id="mail">077-4448701 </span>
+            <p><i class="fa-solid fa-phone"></i>טלפון נייד:</p>
+            <p>054-2344334</p>
+            <p id="mail"><i class="fa-solid fa-at"></i>אי-מייל:</p>
+            <p id="mail">BrotShahar@gmail.com</p>
         </div>
     </header>
     <main>
@@ -131,7 +128,9 @@
                     <h2>אודותיי....</h2>
                 </div>
                 <p>
-                    שמי ברוט שחר, הנדסאי אלקטרוניקה מיכשור ובקרה, עורך דין, איש מחשבים וסיסטם, עובד עם ילדים חינוך
+                    שמי ברוט שחר, הנדסאי אלקטרוניקה מיכשור ובקרה, עורך דין,
+                    איש מחשבים וסיסטם,<br>
+                    עובד עם ילדים חינוך<br>
                     והדרכה כעשרים שנה<br>
                     ידע עצום ונרחב במגוון רב של תחומים<br>
                     גישה וסבלנות אין קץ לילדים, תוצאות מוכחות<br>
@@ -199,17 +198,17 @@
                 <h2>יצירת קשר</h2>
             </div>
             <div id="contact">
-                <form>
+                <form name="contactform">
                     <label for="fullname"> שם מלא*</label>
-                    <input id="fullname" type="text" required />
+                    <input id="fullname" name="fullname" type="text" required />
 
                     <label for="phone"> טלפון נייד*</label>
-                    <input id="phone" type="text" required />
+                    <input id="phone" name="phone" type="text" required />
 
                     <label for="email"> דואר אלקטרוני*</label>
-                    <input id="email" type="email" required />
+                    <input id="email" name="email" type="email" required />
                     <br>
-                    <button type="submit"> שלח </button>
+                    <button type="submit" id="myBtn"> שלח </button>
                 </form>
             </div>
         </section>
@@ -283,6 +282,7 @@
             </p>
         </div>
     </footer>
+    <script type="text/javascript" src="../js/one.js"></script>
     <script>
         const d = new Date();
         let year = d.getFullYear();

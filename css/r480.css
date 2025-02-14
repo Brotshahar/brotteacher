@@ -3,9 +3,10 @@
     header {
         width: 100%;
     }
-    header #span {
-        font-size: x-small;
+    header #top {
+        height: 50%;
     }
+    
     header #span #mail {
         display: none;
     }
