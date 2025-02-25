@@ -25,6 +25,7 @@ header #top {
 header nav {
     width: 70%;
     margin: 0px auto;
+    font-size: 18px;
 }
 header nav ul {
     display: flex;
@@ -51,77 +52,38 @@ header #h {
 header #span {
     display: flex;
     justify-content: left;
-    color: white;
     width: 80%;
-    margin: 0px auto;
+    margin: 10px;
 }
 header #span a{
     text-decoration: none;
-    color: white;
-}
-
-header #span a:hover {
     color: pink;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 18px;
 }
-header #span a:active {
-    transform: translateY(2px);
-  }
-header #span span {
-    margin-left: 10px;
+header #span a:hover{
+   border-bottom:1px solid pink ;
 }
-
 main #images {
     width: 50%;
     margin: 0px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 25vh;
+    height: 15vh;
 }
-
-main #images .flip-card {
-    background-color: transparent;
-    width: 200px;
-    height: 150px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-main #images .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-/* This container is needed to position the front and back side */
-main #images .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
+main #images #card {
+    width: 30%;
+    height: 8vh;
+    border: 1px solid black;
     text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
- /* Position the front and back side */
-main #images .flip-card-front, .flip-card-back i{
- margin-right: 10px ;  
+    border-radius: 5px;
+    box-shadow: 1px 1px pink;
 }
-/* Position the front and back side */
-main #images .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-/* Style the front side (fallback if image is missing) */
-
-  /* Style the back side */
-  main #images .flip-card-back {
-    background-color: #214771;
-    color: white;
-    transform: rotateY(180deg);
-  }
-
 main #h {
     width: 80%;
     margin: 0px auto;
+    color: #214771;
 }
 main #art01 p{
     margin-right: 200px;
@@ -186,32 +148,43 @@ main #list img {
     width: 100%;
  }
  main #contact form{
-    height: 8vh;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+    height: 100%;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    gap: 5px;
+    font-size: 18px;
 }
-main #contact form label{
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 main #contact form button{
-    width: 130px;
     height: 30px;
     font-weight: bold;
     color: black;
     border : 1px solid black;
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: white;
-    margin-top: 30px ;
+    font-size: 18px;
 }
 main #contact form button:hover{
     background-color: #214771;
     color: white;
 }
+main #contact form input {
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+main #cardcontact #h #ok{
+    text-align: center;
+}
+main #followus {
+    margin-bottom: 30px;
+}
 main #followus #links i {
    color: #214771;
    margin-right: 5px;
+   font-size: 20px;
 }
 main #followus #links {
     margin-right: 200px;
@@ -220,7 +193,7 @@ footer {
     background-color: #214771;
     display: flex;
     width: 100%;
-    height: 40vh;
+    height: 20vh;
     justify-content: space-around;
     border-top: 1px solid lightcoral;
 }
