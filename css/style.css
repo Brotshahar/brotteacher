@@ -55,7 +55,19 @@ header #span {
     width: 80%;
     margin: 0px auto;
 }
-header #span p {
+header #span a{
+    text-decoration: none;
+    color: white;
+}
+
+header #span a:hover {
+    color: pink;
+    font-weight: 600;
+}
+header #span a:active {
+    transform: translateY(2px);
+  }
+header #span span {
     margin-left: 10px;
 }
 
