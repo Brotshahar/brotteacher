@@ -70,14 +70,14 @@ main #images {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 24vh;
+    margin-bottom: 20px;
+  
 }
 main #images #card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
-    height: 20vh;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 1px 1px pink;
