@@ -56,7 +56,8 @@
                     ידע עצום ונרחב במגוון רב של תחומים<br>
                     גישה וסבלנות אין קץ לילדים, תוצאות מוכחות<br>
                     השיעורים מועברים בשידור חי בזום או גוגל<br>
-                    ההורים תמיד מעודכנים במצב התלמיד
+                    ההורים תמיד מעודכנים במצב התלמיד<br>
+                    מחירים נוחים*
                 </p>
             </div>
         </article>
@@ -240,11 +241,11 @@
         const time = new Date().getHours();
         let greeting;
         if (time < 10) {
-            greeting = "בוקר טוב";
+            greeting = "בוקר טוב   <i class='fa-solid fa-exclamation'></i>";
         } else if (time < 18) {
-            greeting = "המשך יום נעים";
+            greeting = "המשך יום נעים   <i class='fa-solid fa-exclamation'></i>";
         } else {
-            greeting = "ערב טוב";
+            greeting = "ערב טוב   <i class='fa-solid fa-exclamation'></i>";
         }
         document.getElementById("greet").innerHTML = greeting;
     </script>

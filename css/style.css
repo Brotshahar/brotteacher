@@ -18,14 +18,13 @@ header {
 header #top {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     margin: 0px auto;
     align-items: center;
 }
 header nav {
-    width: 70%;
-    margin: 0px auto;
     font-size: 18px;
+    font-weight: 700;
 }
 header nav ul {
     display: flex;
@@ -45,14 +44,12 @@ header i {
     margin-left: 10px;
 }
 header #h {
-    display: flex;
-    justify-content: center;
-    color: white;
+      color: white;
 }
 header #span {
     display: flex;
     justify-content: left;
-    width: 80%;
+    width: 70%;
     margin: 10px;
 }
 header #span a{
@@ -64,8 +61,11 @@ header #span a{
 header #span a:hover{
    border-bottom:1px solid pink ;
 }
+main #greet {
+    text-align: center;
+}
 main #images {
-    width: 50%;
+    width: 70%;
     margin: 0px auto;
     display: flex;
     justify-content: space-around;
@@ -88,7 +88,7 @@ main #images #card h3{
 }
 
 main #images #card p {
-    height: 12vh;
+    height: 8vh;
     margin: 0px;
     padding: 5px;
 
@@ -112,7 +112,9 @@ main #h {
     color: #214771;
 }
 main #art01 p{
-    margin-right: 200px;
+    margin-right: 250px;
+    font-size: 18px;
+    font-weight: 400;
 }
 main #list img {
     margin-right: 200px;
@@ -196,8 +198,15 @@ main #contact form input {
     border: 1px solid black;
     border-radius: 4px;
 }
+main #cardcontact {
+    position: relative;;
+}
 main #cardcontact #h #ok{
     text-align: center;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 130px;
+    right: 500px;
 }
 main #followus {
     margin-bottom: 30px;
@@ -212,33 +221,14 @@ main #followus #links {
 }
 footer {
     background-color: #214771;
+    color: white;
     display: flex;
     width: 100%;
     height: 20vh;
     justify-content: space-around;
+    align-items:center;
     border-top: 1px solid lightcoral;
 }
 footer #rights {
     text-align: center;
-    margin-top: 30px;
-}
-footer #rights p {
-    color: white;
-}
-footer .box #h {
-    color: white;
-}
-footer .box ul {
-    list-style: none;
-    padding: 0px;
-}
-footer .box ul li {
-    color: white;
-}
-footer .box ul li a {
-    text-decoration: none;
-    color: white;
-}
-footer .box p {
-    color: white;
 }
