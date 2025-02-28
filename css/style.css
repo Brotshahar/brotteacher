@@ -44,7 +44,7 @@ header nav ul li a:hover{
 header #top i {
     position: absolute;
     font-size: 20px;
-    color:pink;
+    color:rgb(255, 255, 255);
     transform: rotate(-15deg);
     top: 13px;
     left: 577px;
