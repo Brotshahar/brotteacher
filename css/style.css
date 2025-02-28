@@ -17,6 +17,7 @@ header {
 }
 header #top {
     display: flex;
+    position: relative;
     justify-content: space-between;
     width: 70%;
     margin: 0px auto;
@@ -31,7 +32,7 @@ header nav ul {
 }
 header nav ul li{
    list-style: none;
-   margin-left: 10px;
+   margin-left: 30px;
 }
 header nav ul li a{
     text-decoration: none;
@@ -40,8 +41,16 @@ header nav ul li a{
 header nav ul li a:hover{
     border-bottom: 1px solid white;
 }
-header i {
-    margin-left: 10px;
+header #top i {
+    position: absolute;
+    font-size: 20px;
+    color:pink;
+    transform: rotate(-15deg);
+    top: 13px;
+    left: 577px;
+}
+header  #span i {
+    margin-left: 15px;
 }
 header #h {
       color: white;
