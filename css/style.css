@@ -20,8 +20,8 @@ header {
 header #top {
     display: flex;
     position: relative;
-    justify-content: space-between;
-    width: 70%;
+    justify-content: space-around;
+    width: 60%;
     margin: 0px auto;
     align-items: center;
 }
@@ -55,11 +55,12 @@ header #top i {
     color: rgb(255, 255, 255);
     transform: rotate(-15deg);
     top: 13px;
-    left: 577px;
+    left: 425px;
 }
 
 header #span i {
-    margin-left: 15px;
+    margin-left: 10px;
+    font-size: 15px;
 }
 
 header #h {
@@ -68,8 +69,7 @@ header #h {
 
 header #span {
     display: flex;
-    justify-content: left;
-    width: 70%;
+    justify-content: center;
     margin: 10px;
 }
 
@@ -87,6 +87,14 @@ header #span a:hover {
 main #greet {
     text-align: center;
 }
+main #tools #logos{
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
 
 main #images {
     width: 70%;
@@ -94,7 +102,7 @@ main #images {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 }
 
@@ -137,7 +145,7 @@ main #images #card span i {
 
 main #h {
     width: 80%;
-    margin: 0px auto;
+    margin: 30px auto;
     color: #214771;
 }
 
