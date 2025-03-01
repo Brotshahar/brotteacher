@@ -22,13 +22,14 @@ header #top {
     position: relative;
     justify-content: space-around;
     width: 60%;
-    margin: 0px auto;
+    margin: 20px auto;
     align-items: center;
 }
 
 header nav {
     font-size: 18px;
     font-weight: 700;
+    margin-left: 60px;
 }
 
 header nav ul {
@@ -54,40 +55,42 @@ header #top i {
     font-size: 20px;
     color: rgb(255, 255, 255);
     transform: rotate(-15deg);
-    top: 13px;
-    left: 425px;
+    top: 8px;
+    left: 400px;
 }
 
-header #span i {
-    margin-left: 10px;
-    font-size: 15px;
-}
-
-header #h {
-    color: white;
-}
-
-header #span {
+main #span  {
     display: flex;
+    width: 230px;
+    height: 25px;
+    margin: 0px auto;
     justify-content: center;
-    margin: 10px;
+    align-items: center;
+    border: 1px solid #214771;
+    border-radius: 5px;
 }
-
-header #span a {
+main #span  i{
+    margin-left: 10px;
+}
+main #span a {
     text-decoration: none;
-    color: pink;
+    color: #214771;
     font-weight: 700;
     font-size: 18px;
 }
 
-header #span a:hover {
-    border-bottom: 1px solid pink;
+main #span:hover {
+    background-color: #214771;
+  }
+main #span a:hover {
+        color: white;
 }
 
 main #g {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 main #tools #logos{
     width: 60%;
