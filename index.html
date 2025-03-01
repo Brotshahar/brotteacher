@@ -42,8 +42,8 @@
     </header>
     <main>
         <section>
-            <div id="h">
-                <h2 id="greet"></h2>
+            <div id="g">
+                <img id="greet" src="" alt="greet">
             </div>
         </section>
         <article>
@@ -257,15 +257,17 @@
     </script>
     <script>
         const time = new Date().getHours();
-        let greeting;
+        const greeting =  document.querySelector("#greet");
+        let greets;
         if (time < 10) {
-            greeting = "בוקר טוב   <i class='fa-solid fa-exclamation'></i>";
+            greets = "./images/m.png";
         } else if (time < 18) {
-            greeting = "המשך יום נעים   <i class='fa-solid fa-exclamation'></i>";
+            greets = "./images/n.png";
         } else {
-            greeting = "ערב טוב   <i class='fa-solid fa-exclamation'></i>";
+            greets = "./images/e.png";
         }
-        document.getElementById("greet").innerHTML = greeting;
+        console.log (greets);
+        greeting.src  = (greets);
     </script>
     <script>
         let slideIndex = 1;

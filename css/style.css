@@ -84,8 +84,10 @@ header #span a:hover {
     border-bottom: 1px solid pink;
 }
 
-main #greet {
-    text-align: center;
+main #g {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 main #tools #logos{
     width: 60%;
