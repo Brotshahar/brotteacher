@@ -9,7 +9,6 @@ header {
     background-color: #214771;
     display: flex;
     flex-direction: column;
-    height: 15vh;
     margin: 0px auto;
     border-bottom: 1px solid lightcoral;
     position: sticky;
@@ -61,37 +60,43 @@ header #top i {
 
 main #span  {
     display: flex;
-    width: 230px;
-    height: 25px;
-    margin: 0px auto;
+    margin: 50px auto;
     justify-content: center;
     align-items: center;
-    border: 1px solid #214771;
-    border-radius: 5px;
 }
 main #span  i{
     margin-left: 10px;
+    font-size: 18px;
 }
 main #span a {
     text-decoration: none;
     color: #214771;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
+    border-bottom:1px solid #214771;
 }
 
-main #span:hover {
-    background-color: #214771;
-  }
 main #span a:hover {
-        color: white;
-}
+    border-bottom:1px solid rgb(102, 156, 255);
+  }
 
 main #g {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    gap: 70px ;
+    position: relative;
 }
+main #g P{
+    position: absolute;
+    font-size: 24px;
+    color: #214771;
+    font-weight: 600;
+    left: 760px;
+    top: 12px;
+}
+
 main #tools #logos{
     width: 60%;
     margin: 0px auto;
