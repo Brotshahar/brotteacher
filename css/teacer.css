@@ -7,23 +7,25 @@ body{
 main  nav {
     font-size: 18px;
     background-color: rgb(237, 237, 237);
-    width: 180px;
+    width: 150px;
     height: 100vh;
     position: fixed;
+    z-index: 1;
     top: 104px;
+    border-left: 1px solid #214771;
 }
 main nav ul li {
     list-style: none;
     height: 40px;
     display: flex;
     align-items: center;
-   padding-right: 20px;
     color: #214771;
 }
 main nav ul li i{
     margin-left: 10px;
+    margin-right: 10px;
 }
-main nav ul li:hover {
+main nav ul li a:hover {
     background-color: #214771;
     color: white;
 
@@ -34,6 +36,9 @@ main nav ul {
 }
 main  nav ul li a {
     text-decoration: none;
+    color: #214771;
+    width: 150px;
+    padding: 8px;
 }
 header {
     background-color: #214771;
@@ -53,6 +58,49 @@ header #top {
     width: 60%;
     margin: 20px auto;
     align-items: center;
+}
+
+
+
+
+main #span  {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+main #span  i{
+    margin-left: 10px;
+    font-size: 18px;
+}
+main #span a {
+    text-decoration: none;
+    color: #214771;
+    font-weight: 700;
+    font-size: 22px;
+    border-bottom:1px solid #ffffff;
+}
+
+main #span a:hover {
+    border-bottom:1px solid#214771;
+  }
+
+main #g {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 70px ;
+    position: relative;
+    z-index: -1;
+}
+main #g P{
+    position: absolute;
+    font-size: 24px;
+    color: #214771;
+    font-weight: 600;
+    left: 760px;
+    top: 12px;
 }
 
 

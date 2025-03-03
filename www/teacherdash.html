@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
     <link rel="stylesheet" href="../css/teacer.css">
     <script src="https://kit.fontawesome.com/9116118311.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,17 +24,52 @@
             <div id="menu">
                 <nav>
                     <ul>
-                        <li><a><i class="fa-solid fa-gauge"></i> ראשי </a></li>
-                        <li><a><i class="fa-solid fa-user-tie"></i> תלמידים </a></li>
-                        <li><a><i class="fa-solid fa-book-open-reader"></i> קורסים </a></li>
-                        <li><a><i class="fa-solid fa-hourglass"></i> משימות </a></li>
-                        <li><a><i class="fa-solid fa-flag-checkered"></i> מבחנים </a></li>
-                        <li><a><i class="fa-solid fa-right-from-bracket"></i> יציאה </a></li>
+                        <li><a href="#"><i class="fa-solid fa-gauge"></i> ראשי </a></li>
+                        <li><a href="#"><i class="fa-solid fa-user-tie"></i> תלמידים </a></li>
+                        <li><a href="#"><i class="fa-solid fa-book-open-reader"></i> קורסים </a></li>
+                        <li><a href="#"><i class="fa-solid fa-hourglass"></i> משימות </a></li>
+                        <li><a href="#"><i class="fa-solid fa-flag-checkered"></i> מבחנים </a></li>
+                        <li><a href="../index.html"><i class="fa-solid fa-right-from-bracket"></i> יציאה </a></li>
                     </ul>
                 </nav>
             </div>
         </section>
+        <section>
+            <div id="g">
+                <img id="greet" src="" alt="greet">
+                <img src="../images/date.png" alt="greet">
+                <div id="date">
+                    <p id="new__date">DD/MM/YYYY</p>
+                </div>
+            </div>
+            <div id="span">
+                <a href="tel:+9720542344334"> <i class="fa-solid fa-phone"></i>טלפון : 0542-344334 </a>
+            </div>
+        </section>
     </main>
+    <script>
+        const date = new Date();
+        let dd = date.getDate();
+        dd = String (dd);
+        let mm = date.getMonth();
+        mm += 1;
+        let yy = date.getFullYear();
+        document.querySelector("#new__date").innerText = ( dd + "/" + mm + "/" + yy);
+    </script>
+    <script>
+        const time = new Date().getHours();
+        const greeting =  document.querySelector("#greet");
+        let greets;
+        if (time < 10) {
+            greets = "../images/m.png";
+        } else if (time < 18) {
+            greets = "../images/n.png";
+        } else {
+            greets = "../images/e.png";
+        }
+        console.log (greets);
+        greeting.src  = (greets);
+    </script>
 </body>
 
 </html>
