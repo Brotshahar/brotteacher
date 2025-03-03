@@ -55,7 +55,7 @@ header #top i {
     color: rgb(255, 255, 255);
     transform: rotate(-15deg);
     top: 8px;
-    left: 400px;
+    right: 370px;
 }
 
 main #span  {
