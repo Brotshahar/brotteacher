@@ -37,9 +37,13 @@
         <section>
             <div id="g">
                 <img id="greet" src="" alt="greet">
-                <img src="../images/date.png" alt="greet">
+                <div id="name">
+                    <img src="../images/name.png" alt="name"/>
+                    <p id="in_name"></p>
+                </div>
                 <div id="date">
-                    <p id="new__date">DD/MM/YYYY</p>
+                    <img src="../images/date.png" alt="date">
+                    <p id="new__date"></p>
                 </div>
             </div>
             <div id="span">
@@ -50,15 +54,15 @@
     <script>
         const date = new Date();
         let dd = date.getDate();
-        dd = String (dd);
+        dd = String(dd);
         let mm = date.getMonth();
         mm += 1;
         let yy = date.getFullYear();
-        document.querySelector("#new__date").innerText = ( dd + "/" + mm + "/" + yy);
+        document.querySelector("#new__date").innerText = (dd + "/" + mm + "/" + yy);
     </script>
     <script>
         const time = new Date().getHours();
-        const greeting =  document.querySelector("#greet");
+        const greeting = document.querySelector("#greet");
         let greets;
         if (time < 10) {
             greets = "../images/m.png";
@@ -67,8 +71,8 @@
         } else {
             greets = "../images/e.png";
         }
-        console.log (greets);
-        greeting.src  = (greets);
+        console.log(greets);
+        greeting.src = (greets);
     </script>
 </body>
 

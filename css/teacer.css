@@ -6,7 +6,7 @@ body{
 }
 main  nav {
     font-size: 18px;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(255, 255, 255);
     width: 150px;
     height: 100vh;
     position: fixed;
@@ -26,8 +26,7 @@ main nav ul li i{
     margin-right: 10px;
 }
 main nav ul li a:hover {
-    background-color: #214771;
-    color: white;
+    color: rgb(0, 140, 255);
 
 }
 main nav ul {
@@ -98,8 +97,8 @@ main #g P{
     position: absolute;
     font-size: 24px;
     color: #214771;
-    font-weight: 600;
-    left: 760px;
+    font-weight: 550;
+    left: 550px;
     top: 12px;
 }
 
