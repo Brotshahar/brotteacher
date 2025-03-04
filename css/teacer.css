@@ -11,7 +11,7 @@ main  nav {
     height: 100vh;
     position: fixed;
     z-index: 1;
-    top: 104px;
+    top: 105px;
     border-left: 1px solid #214771;
 }
 main nav ul li {
@@ -61,45 +61,67 @@ header #top {
 
 
 
-
-main #span  {
-    display: flex;
-    margin: 50px auto;
-    justify-content: center;
-    align-items: center;
-}
-main #span  i{
-    margin-left: 10px;
-    font-size: 18px;
-}
-main #span a {
-    text-decoration: none;
-    color: #214771;
-    font-weight: 700;
-    font-size: 22px;
-    border-bottom:1px solid #ffffff;
-}
-
-main #span a:hover {
-    border-bottom:1px solid#214771;
-  }
-
 main #g {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     gap: 70px ;
-    position: relative;
     z-index: -1;
 }
-main #g P{
+main #g #date {
+    position: relative;
+}
+main #date P{
     position: absolute;
     font-size: 24px;
     color: #214771;
     font-weight: 550;
-    left: 550px;
+    left: 100px;
+    top: 12px;
+}
+main #g #name {
+    position: relative;
+}
+main  #name P{
+    position: absolute;
+    font-size: 24px;
+    color: #214771;
+    font-weight: 550;
+    left: 100px;
     top: 12px;
 }
 
 
+
+main #profile {
+    width: 200px;
+    height: 50vh;
+    margin-right: 200px;
+    border: 1px solid #214771;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px #214771;
+    font-size: 18px;
+
+}
+main #profile #studentname {
+    margin-right: 15px;
+
+}
+
+main #profile img {
+    border-radius: 50px;
+    border: 1px solid #214771;
+    padding: 3px;
+}
+main #profile #studentlist ul li {
+    list-style: none;
+    line-height: 25px;
+   
+}
+main #profile #studentlist ul {
+    font-size: 16px;
+    padding: 0px;
+   
+}
