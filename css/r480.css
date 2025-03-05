@@ -1,32 +1,28 @@
 @media screen and (max-width:480px) {
-
-    header {
-        width: 100%;
-    }
-    header #top {
-        height: 50%;
-    }
-    
-    header #span #mail {
+   
+    main #imgcontainer {
         display: none;
     }
-    main #art01 p {
-        margin-right:50px;
-        margin-left: 5px;
+    main #yr {
+        margin-right: 70px;
     }
-    main #list img {
+    main #cardcontact {
         display: none;
     }
     main #image01 {
         display: none;
     }
-    main #yr {
-        margin-right: 50px;
-    }
-    footer .box  {
+    main #g {
         display: none;
     }
-    footer {
-        height: 100%;
+    main #art01 #prop {
+       margin-right: 50px;
+       width: 350px;
     }
+   footer .box {
+    display: none;
+   }
+   main #list {
+    display: none;
+   }
 }

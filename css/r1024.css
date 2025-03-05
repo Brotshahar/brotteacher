@@ -6,7 +6,7 @@
     /* header #top {
         height: 50%;
     } */
-    main #images {
+    main .subjects {
         display: none;
     }
     main #art01 p {
