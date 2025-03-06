@@ -1,10 +1,10 @@
 @media screen and (max-width:480px) {
    
-    main #imgcontainer {
+    /* main #imgcontainer {
         display: none;
-    }
+    } */
     main #yr {
-        margin-right: 70px;
+       display: none;
     }
     main #cardcontact {
         display: none;
@@ -12,17 +12,32 @@
     main #image01 {
         display: none;
     }
-    main #g {
+    /* main .slideshow-container{
         display: none;
+    }
+    main .dot-container{
+        display: none;
+    } */
+    main #greet {
+       margin-left: 70px;
+    }
+    main #g {
+        margin-right: 60px;
     }
     main #art01 #prop {
        margin-right: 50px;
        width: 350px;
     }
-   footer .box {
+   footer .box{
     display: none;
    }
    main #list {
     display: none;
+   }
+   /* header {
+    display: none;
+   } */
+   main #followus #links{
+    margin-right: 50px;
    }
 }
