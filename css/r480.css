@@ -19,10 +19,10 @@
         display: none;
     } */
     main #greet {
-       margin-left: 70px;
+        display: none;
     }
     main #g {
-        margin-right: 60px;
+        display: none;
     }
     main #art01 #prop {
        margin-right: 50px;
