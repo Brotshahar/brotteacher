@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./source.js" defer></script>
+    <title>Trigo</title>
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <div id="logo">
+                <img src="../../images/l.png" alt="logo" width="230px" />
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Calculator</h2>
+        <div id="mainart">
+
+
+            <div id="cercle">
+                <h3 style="color: red;">Input the Radiuse of the Circle:</h3>
+                <br>
+                <img src="./circle.png" width="100px" height="100px" />
+                <br> <br>
+                <div id="form002">
+                    <label for="radeuse">Radiuse</label>
+                    <input id="radeuse" type="text" /><span> cm</span><br><br>
+                    <button onclick="output2()">Submit Info</button><br><br>
+                </div>
+                <div class="op">
+                    <p id="output2">Enter the radiuse of the circle and<b> Click Submit</b></p>
+                </div>
+            </div>
+            <div id="retangle">
+                <h3 style="color: red;">Input Width and Hight of the Retangle:</h3>
+                <br>
+                <img src="./square.png" width="100px" height="100px" />
+                <br> <br>
+                <div id="form001">
+                    <label for="width">Width</label>
+                    <input id="width" type="text" /><span> cm</span><br><br>
+                    <label for="hight">Hight</label>
+                    <input id="hight" type="text" /><span> cm</span><br><br>
+                    <button onclick="output()">Submit Info</button><br><br>
+                </div>
+                <div class="op">
+                    <p id="output">Enter width and hight of the retangle and <b>Click Submit</b></p>
+                </div>
+            </div>
+            <div id="cube">
+                <h3 style="color: red;">Input the Parameters of the Cube:</h3>
+                <br>
+                <img src="./cube.png" width="100px" height="100px" />
+                <br> <br>
+                <div id="form003">
+                    <label for="widthcube">Width</label>
+                    <input id="widthcube" type="text" /><span> cm</span><br><br>
+                    <label for="hightcube">Hight</label>
+                    <input id="hightcube" type="text" /><span> cm</span><br><br>
+                    <label for="depthcube">Depth</label>
+                    <input id="depthcube" type="text" /><span> cm</span><br><br>
+                    <button onclick="output3()">Submit Info</button><br><br>
+                </div>
+                <div class="op">
+                    <p id="output3">Enter the Cube parameters and<b> Click Submit</b></p>
+                </div>
+            </div>
+    </main>
+</body>
+
+</html>

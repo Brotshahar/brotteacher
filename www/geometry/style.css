@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+.op {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 110%;
+    padding-left: 10px;
+}
+button {
+    margin-left: 50px;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+img {
+    margin-left: 80px;
+}
+h2 {
+   text-align: center;
+}
+#mainart {
+    display: flex;
+    justify-content: space-around;
+
+}
+#cercle {
+    width: 330px;
+}
+#cube {
+    width: 330px;
+}
+#retangle {
+    width: 330px;
+}
+header {
+    background-color: #214771;
+    display: flex;
+    margin: 0px auto;
+    border-bottom: 1px solid lightcoral;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    justify-content: center;
+}
+header img {
+    width: 230px;
+    height: 60px;
+}
