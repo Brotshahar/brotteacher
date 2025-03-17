@@ -103,21 +103,6 @@ main #tools #logos{
 main #images {
     width: 70%;
     margin: 0px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 40px;
-
-}
-
-main #images #card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30%;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 1px 1px pink;
 }
 
 main #images #card h3 {
@@ -125,43 +110,29 @@ main #images #card h3 {
 
 }
 
-main #images #card p {
-    height: 8vh;
-    margin: 0px;
-    padding: 5px;
-
-}
-
-main #images #card span {
-    padding-right: 10px;
-    height: 30px;
-    font-weight: 400;
-    font-size: 13px;
-    color: #214771;
-    background-color: rgba(211, 211, 211, 0.425);
-}
-
-main #images #card span i {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 8px;
-}
-
 main #h {
     width: 80%;
     margin: 30px auto;
     color: #214771;
 }
-main #image_container {
-    width: 70%;
+main #card {
+    width: 80%;
     margin: 0px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
     flex-wrap: wrap;
 }
-main #image_container img {
-    border-radius: 4px;
-    
+main #image_container {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 main #art01 p {
     margin-right: 250px;
@@ -266,15 +237,13 @@ main #contact form input {
 
 main #cardcontact {
     position: relative;
-    ;
 }
 
 main #cardcontact #h #ok {
-    text-align: center;
-    transform: rotate(-30deg);
+  
     position: absolute;
-    top: 130px;
-    right: 500px;
+    top: 250px;
+    right: 550px;
 }
 
 main #followus {
@@ -283,8 +252,8 @@ main #followus {
 
 main #followus #links i {
     color: #214771;
-    margin-right: 5px;
-    font-size: 20px;
+    margin-right: 20px;
+    font-size: 40px;
 }
 
 main #followus #links {
