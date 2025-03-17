@@ -15,7 +15,13 @@ button {
     border: 1px solid black;
     border-radius: 3px;
 }
-img {
+#cercle img {
+    margin-left: 80px;
+}
+#retangle img {
+    margin-left: 80px;
+}
+#cube img {
     margin-left: 80px;
 }
 h2 {
@@ -48,4 +54,5 @@ header {
 header img {
     width: 230px;
     height: 60px;
+    margin: 20px;
 }
