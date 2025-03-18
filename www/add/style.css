@@ -7,7 +7,7 @@ h2 {
 h3 {
     text-align: center;
 }
-img {
+#art001 img {
     width: 100px;   
     height: 100px;
     margin: 20px;
@@ -48,4 +48,9 @@ header {
 header img {
     width: 230px;
     height: 60px;
+}
+#back {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }

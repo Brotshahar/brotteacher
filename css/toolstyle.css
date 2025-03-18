@@ -7,3 +7,8 @@
 #tools img {
     cursor: pointer;
 }
+#back {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
