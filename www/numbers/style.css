@@ -38,6 +38,7 @@ header {
 header img {
     width: 230px;
     height: 60px;
+    margin: 20px;
 }
 #back {
     display: flex;
