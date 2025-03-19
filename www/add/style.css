@@ -27,10 +27,12 @@ button {
 #b {
     display: flex;
     justify-content: center;
+
 }
 #op {
     display: flex;
     justify-content: center;
+    color: red;
 }
 h1 {
     font-size: 50px;
