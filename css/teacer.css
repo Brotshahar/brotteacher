@@ -182,4 +182,52 @@ main #card04 {
     font-size: 16px;
 
 }
+main #art005 {
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid #214771;
+    border-radius: 5px;
+    padding:30px;
+    box-shadow: 1px 1px 4px #214771;
+    font-size: 18px;
+}
+main #art005 input{
+    line-height: 25px;
+    font-size: 18px;
+    width: 150px;
+    border: 1px solid #214771;
+    border-radius: 5px;
+    padding: 5px;
+}
+main #art005 button{
+    background-color: #214771;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+main #table {
+    width: 80%;
+    margin: 30px auto;
+}
+main #table i{
+    color: red;
+}
+main #table th{
+    
+    width: 200px;
+    height: 25px;
+}
+main #table td{
+ 
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
 
