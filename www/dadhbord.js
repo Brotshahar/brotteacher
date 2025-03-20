@@ -6,13 +6,17 @@ const subject = document.querySelector("#subject");
 const sdate = document.querySelector("#sdate");
 const borg = document.getElementsByName("borg");
 const smobile = document.querySelector("#smobile");
+const snum = document.querySelector("#snum");
 
 
 // create students array
 studentlist = [];
-
+let counter = 0;
 
 function adds() {
+    // add to student counter
+    counter++;
+    snum.innerText= counter;
     // check boy or girl
         if (borg[0].checked) {
            txt = borg[0].value;
@@ -84,5 +88,22 @@ function builddom(array) {
                             <td><i class="fa-solid fa-trash-can" style="cursor: pointer;"></i></td>
                             </tr>  `;
     });
+    currentdate();
+}
+
+// get curret date fun
+function currentdate(){
+    const date = new Date();
+    const year = String(date.getFullYear());
+    const month = String(date.getMonth() + 1 ).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    sdate.value = `${year}-${month}-${day}`;
+    console.log(sdate.value);
 
 }
+
+
+
+
+// call curent date
+currentdate();

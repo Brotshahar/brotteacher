@@ -208,7 +208,7 @@ main #art005 button{
     font-size: 18px;
 }
 main #table {
-    width: 80%;
+    width: 70%;
     margin: 30px auto;
 }
 main #table i{
@@ -216,7 +216,7 @@ main #table i{
 }
 main #table th{
     
-    width: 200px;
+    width: 150px;
     height: 25px;
 }
 main #table td{
