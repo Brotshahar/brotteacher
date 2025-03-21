@@ -7,6 +7,7 @@ const sdate = document.querySelector("#sdate");
 const borg = document.getElementsByName("borg");
 const smobile = document.querySelector("#smobile");
 const snum = document.querySelector("#snum");
+const search = document.querySelector("#ssearch");
 
 
 // create students array
@@ -85,8 +86,12 @@ function builddom(array) {
                             <td>${student.subject}</td>
                             <td>${student.sdate}</td>
                             <td>${student.borg}</td>
-                            <td><i class="fa-solid fa-trash-can" style="cursor: pointer;"></i></td>
+                            <td> 
+                            <i onclick="deletestudent(${index})" class="fa-regular fa-trash-can" style="cursor: pointer;"></i> 
+                            </td>
                             </tr>  `;
+                          
+                         
     });
     currentdate();
 }
@@ -102,8 +107,28 @@ function currentdate(){
 
 }
 
+// delete student fun
+function deletestudent(index){
+ // check cinfirm
+  const isSure = confirm("Delete Student?");
+  // user react
+  if (!isSure) return;
 
+  // Delete student
+  studentlist.splice(index, 1);
+  // update scounter
+  counter--;
+  snum.innerText= counter;
+  // build DOM
+  builddom(studentlist);
+}
 
+// search student
+function searchstudent(){
+   const sfilter = studentlist.filter((student) => student.fname.includes(search.value));
+ // build DOM
+ builddom(sfilter);
+}
 
 // call curent date
 currentdate();

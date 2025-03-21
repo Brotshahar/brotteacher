@@ -183,7 +183,7 @@ main #card04 {
 
 }
 main #art005 {
-    width: 70%;
+    width: 68%;
     margin: 0px auto;
     border: 1px solid #214771;
     border-radius: 5px;
@@ -192,7 +192,7 @@ main #art005 {
     font-size: 18px;
 }
 main #art005 input{
-    line-height: 25px;
+    line-height: 20px;
     font-size: 18px;
     width: 150px;
     border: 1px solid #214771;
@@ -208,8 +208,9 @@ main #art005 button{
     font-size: 18px;
 }
 main #table {
-    width: 70%;
+    width: 72%;
     margin: 30px auto;
+    font-size: 18px;
 }
 main #table i{
     color: red;
@@ -229,5 +230,28 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
   }
+  main #sgender {
+    display: flex;
+    align-items: center;
+    border: 1px solid #214771; 
+    border-radius: 5px;
+    width: 450px;
+    height: 35px;
+    justify-content: center;
+  }
+  main #search {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  main #search input{
+    line-height: 30px;
+    font-size: 18px;
+    width: 200px;
+    border: 1px solid #214771;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 

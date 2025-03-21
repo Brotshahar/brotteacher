@@ -46,41 +46,48 @@
         </section>
         <section>
             <div id="art005">
-               <label for="fname">שם פרטי</label>
-               <input type="text" id="fname" />
-               <label for="lname">שם משפחה</label>
-               <input type="text" id="smobile" />
-               <label for="smobile">טלפון נייד</label>
-               <input type="text" id="lname" /><br><br>
-               <label for="pname">שם ההורה</label>
-               <input type="text" id="pname" /><br><br>
-               <label for="subject">נושא</label>
-               <input type="text" id="subject" /><br><br>
-               <label for="boy">תלמיד</label>
-               <input type="radio" id="boy" name="borg" value="Boy"/>
-               <label for="girl">תלמידה</label>
-               <input type="radio" id="girl" name="borg" value="Girl"/><br><br>
-               <label for="sdate">תאריך התחלת לימודים</label>
-               <input type="date" id="sdate" />
-               <br><br>
-               <button onclick="adds()" style="cursor: pointer;" type="button">הוסף תלמיד</button>
+                <label for="fname">שם פרטי</label>
+                <input type="text" id="fname" />
+                <label for="lname">שם משפחה</label>
+                <input type="text" id="smobile" />
+                <label for="smobile">טלפון נייד</label>
+                <input type="text" id="lname" /><br><br>
+                <label for="pname">שם ההורה</label>
+                <input type="text" id="pname" /><br><br>
+                <label for="subject">נושא</label>
+                <input type="text" id="subject" /><br><br>
+                <div id="sgender">
+                    <label for="boy">תלמיד</label>
+                    <input type="radio" id="boy" name="borg" value="Boy" />
+                    <label for="girl">תלמידה</label>
+                    <input type="radio" id="girl" name="borg" value="Girl" />
+                </div><br><br>
+                <label for="sdate">תאריך התחלת לימודים</label>
+                <input type="date" id="sdate" />
+                <br><br>
+                <button onclick="adds()" style="cursor: pointer;" type="button">הוסף תלמיד</button>
+            </div>
+        </section>
+        <section>
+            <div id="search">
+                <input oninput="searchstudent()" type="search" id="ssearch" placeholder="חפוש תלמיד"/>
             </div>
         </section>
         <section>
             <div id="table">
                 <table id="studentlist">
                     <tr>
-                        <th >מספר</th>
+                        <th>מספר</th>
                         <th>שם פרטי</th>
                         <th>שם משפחה</th>
                         <th>מספר טלפון</th>
                         <th>שם הורה</th>
                         <th>נושא</th>
                         <th>תאריך התחלה</th>
-                        <th  >תלמיד/ה</th>
-                        <th  >מחיקה</th>
+                        <th>תלמיד/ה</th>
+                        <th>מחיקה</th>
                     </tr>
-                  
+
                 </table>
             </div>
         </section>
