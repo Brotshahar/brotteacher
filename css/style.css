@@ -229,7 +229,7 @@ main #contact form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 15%;
+    width: 25%;
     gap: 5px;
 }
 
