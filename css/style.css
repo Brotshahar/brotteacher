@@ -106,7 +106,7 @@ main #g P{
     top: 12px;
 }
 
-main  #logos{
+main #tools #logos{
     width: 80%;
     margin: 0px auto;
     display: flex;
