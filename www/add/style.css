@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+   
 }
 h2 {
     text-align: center;
@@ -56,4 +57,5 @@ header img {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    font-size: 22px;
 }
