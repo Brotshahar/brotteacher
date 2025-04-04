@@ -5,7 +5,7 @@ function builddom(data) {
     bourd.innerHTML += `<div class="card" style="width: 18rem;">
   <img class="card-img-top" src="${element.flags.png}" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">${element.name.common}</h5>
+    <h4 class="card-title">${element.name.common}</h4>
   </div>
 </div>`
   });
