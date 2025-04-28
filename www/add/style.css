@@ -33,7 +33,7 @@ button {
 #op {
     display: flex;
     justify-content: center;
-    color: red;
+    color: rgb(0, 0, 0);
 }
 h1 {
     font-size: 50px;

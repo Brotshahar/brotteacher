@@ -12,10 +12,10 @@ function suffule() {
 
   if (randomOne === randomTwo) {
     counter.innerText = Number(counter.innerText) + 1;
-    result.innerText = "You got Dobble";
+    result.innerText = "יצא דאבל";
     // result.className = "animate__animated animate__bounce animate__infinite";
-    dice1.className = "animate__animated animate__bounce animate__infinite";
-    dice2.className = "animate__animated animate__bounce animate__infinite";
+    // dice1.className = "animate__animated animate__bounce animate__infinite";
+    // dice2.className = "animate__animated animate__bounce animate__infinite";
   } else {
     result.innerText = "";
     dice1.className = "";
