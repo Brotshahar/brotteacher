@@ -222,19 +222,23 @@ main #yr {
 
 
 main #contact {
-    width: 80%;
+    width: 30%;
     margin: 30px auto;
-}
-main #contact form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25%;
-    gap: 5px;
+    border: 1px solid #214771;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+main #contact i{
+    margin-right: 10px;
 }
 
 main #contact form button {
     height: 30px;
+    width: 120px;
     color:#ffffff;
     border-radius: 100px;
     background-color:#214771;
