@@ -227,6 +227,7 @@ main #contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border: 1px solid #214771;
     border-radius: 5px;
     padding: 30px;
@@ -238,7 +239,7 @@ main #contact i{
 
 main #contact form button {
     height: 30px;
-    width: 120px;
+    width: 150px;
     color:#ffffff;
     border-radius: 100px;
     background-color:#214771;
