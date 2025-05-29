@@ -215,19 +215,17 @@ main #cloud {
 }
 main #yr {
     width: 80%;
-    margin: 30px auto;
+    margin: 50px auto;
     color: #ffce1f;
     font-weight: bold;
 }
 
 
 main #contact {
-    width: 30%;
-    margin: 30px auto;
+    width: 25%;
+    margin: 50px auto;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     border: 1px solid #214771;
     border-radius: 5px;
     padding: 30px;
@@ -238,6 +236,8 @@ main #contact i{
 }
 
 main #contact form button {
+    margin-right: 30px;
+    margin-top: 20px;
     height: 30px;
     width: 150px;
     color:#ffffff;
@@ -247,23 +247,29 @@ main #contact form button {
 }
 
 main #contact form input {
-    height: 25px;
+    height: 30px;
+    font-size: 18px;
     border: 1px solid #214771;
     border-radius: 5px;
 }
 
 
-main #followus #links {
+footer #followus #links {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
-main #followus i {
-    color: #214771;
+footer #followus i {
+    color: #ffffff;
     font-size: 30px;
     margin-right: 20px;
+    padding: 13px;
+    border: 1px solid white;
+    border-radius: 8px;
 }
-
+footer #followus i:hover {
+  color: #eaeaead0;
+}
 
 
 footer {
@@ -277,5 +283,8 @@ footer {
 footer #rights {
     text-align: center;
     padding: 50px;
+}
+footer #rights #logo {
+    margin-right: 30px;
 }
 

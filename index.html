@@ -194,48 +194,48 @@
             </div>
             <div id="contact">
                 <form>
-                    <label for="id_name"> שם מלא*</label>
-                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" required />
+                    <!-- <label for="id_name"> שם מלא*</label> -->
+                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name"
+                        placeholder=" שם מלא*" required />
                     <span id="nameError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
 
-                    <label for="id_phone"> טלפון נייד*</label>
-                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone" required />
+                    <!-- <label for="id_phone"> טלפון נייד*</label> -->
+                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone"
+                        placeholder=" טלפון נייד*" required />
                     <span id="phoneError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
 
-                    <label for="email">דואר אלקטרוני*</label>
-                    <input onblur="validateInputs('email')" type="email" id="email" name="email" required />
+                    <!-- <label for="email">דואר אלקטרוני*</label> -->
+                    <input onblur="validateInputs('email')" type="email" id="email" name="email"
+                        placeholder="דואר אלקטרוני*" required />
                     <span id="emailError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
 
                     <div id="b">
                         <button type="submit" id="myBtn"> שלח </button>
-                    </div><br><br>
+                    </div><br>
                     <p id="result">פרטים ליצירת קשר</p>
                 </form>
             </div>
         </section>
-        <section>
-            <div id="followus">
-                <div id="h">
-                    <p>ניתן לעקוב אחריי</p>
-                </div>
-                <div id="links">
-                    <a title="Facebook" href="https://www.facebook.com/profile.php?id=61574067715551" target="_blank"><i
-                            class="fa-brands fa-facebook"></i></a>
-                    <a title="instagram" href="https://www.instagram.com/shaharbroti/" target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
-
-                    <a title="youtube - brot shahar lawyer"
-                        href="https://www.youtube.com/@%D7%91%D7%A8%D7%95%D7%98_%D7%A9%D7%97%D7%A8_%D7%9E%D7%95%D7%A8%D7%94_%D7%A4%D7%A8%D7%98%D7%99" target="_blank"><i
-                            class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-        </section>
-        <br>
     </main>
     <footer>
-
         <div id="rights">
-            <img title="Facebook" alt="we" src="./images/we.png" style="height: 110px; width: 120px;" />
+            <div id="logo">
+                <img alt="school logo" title="school" src="./images/l.png" alt="logo" width="280px" height="90px" />
+            </div>
+            <section>
+                <div id="followus">
+                    <div id="links">
+                        <a title="Facebook" href="https://www.facebook.com/profile.php?id=61574067715551"
+                            target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a title="instagram" href="https://www.instagram.com/shaharbroti/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+
+                        <a title="youtube - brot shahar lawyer"
+                            href="https://www.youtube.com/@%D7%91%D7%A8%D7%95%D7%98_%D7%A9%D7%97%D7%A8_%D7%9E%D7%95%D7%A8%D7%94_%D7%A4%D7%A8%D7%98%D7%99"
+                            target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </section>
             <p>
                 ברוט שחר <span id="year"></span> @ כל הזכויות שמורות
             </p>
